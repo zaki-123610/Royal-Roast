@@ -31,6 +31,7 @@ header{
     top: 0;    
     left: 0;
     height: 5rem;
+    z-index: 1;
 
 }
 .coffeetxt{
@@ -151,6 +152,7 @@ background: radial-gradient(circle, rgba(196, 154, 108, 1) 0%, rgba(143, 38, 26,
     }
     .selec p {
         font-size: 1.2rem;
+        text-align: center;
     }
     .subs3{
     background-color:#C49A6C;
@@ -174,7 +176,7 @@ background: radial-gradient(circle, rgba(196, 154, 108, 1) 0%, rgba(143, 38, 26,
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width:70%;
+        width:80%;
         margin-top: 3rem;
     }
     .box{
@@ -443,7 +445,7 @@ background: radial-gradient(circle, rgba(196, 154, 108, 1) 0%, rgba(143, 38, 26,
         padding-bottom: 5rem;
         margin-top:3rem;
         height: 22rem;
-        width:63%;
+        width:70%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -860,6 +862,7 @@ transition: all 1s ease-in-out;
         display: flex;
         flex-direction: column;
         height: 8rem;
+        width:100%;
     }
     .master{
         margin-bottom: 0%;
