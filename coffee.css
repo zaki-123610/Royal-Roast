@@ -776,7 +776,10 @@ transition: all 1s ease-in-out;
  
 
 @media (max-width: 480px) {
-       
+    body{
+    margin: 0%;
+    width:100vw;
+    }
     div.navv {
         display: flex;
         justify-content: space-between;
@@ -792,13 +795,16 @@ transition: all 1s ease-in-out;
     div.maintxt{
         width: auto;
     }
+
     p.coffeetxt{
         text-align: center;
         font-size:1.8rem;
     }
+
     input.subs{
     width:auto;
     }
+
     .maintxt{
         width: 20px;
         height: 60px;
@@ -979,6 +985,7 @@ transition: all 1s ease-in-out;
         flex-direction: column;
         padding-bottom: 70rem;
     }
+
     .say{
         display: flex;
         flex-direction: column;
