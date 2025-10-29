@@ -776,7 +776,7 @@ transition: all 1s ease-in-out;
  
 
 @media (max-width: 480px) {
-
+       
     div.navv {
         display: flex;
         justify-content: space-between;
