@@ -779,6 +779,11 @@ transition: all 1s ease-in-out;
     body{
     margin: 0%;
     width:100vw;
+    display:flex;
+    flex-direction: column;
+    }
+    div.tr{
+        width:auto;
     }
     div.navv {
         display: flex;
@@ -984,6 +989,8 @@ transition: all 1s ease-in-out;
         display: flex;
         flex-direction: column;
         padding-bottom: 70rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .say{
@@ -992,7 +999,23 @@ transition: all 1s ease-in-out;
         justify-content: space-between;
         width: 420px;
         padding-right:30px;
-        padding-left:30;
+        padding-left:30px;
+        padding-bottom: 8rem;
+    }
+    div.boxsay1{
+        width:95%;
+        padding-bottom: 20px;
+        padding-left:16px;
+        padding-right:16px;
+    }
+    div.boxsay2{
+        width:95%;
+    }
+    div.boxsay3{
+        width:95%;
+    }
+    div.boxsay4{
+        width:95%;
     }
     
 }
