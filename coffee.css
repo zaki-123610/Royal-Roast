@@ -781,6 +781,7 @@ transition: all 1s ease-in-out;
     width:100vw;
     display:flex;
     flex-direction: column;
+    overflow-x: hidden;
     }
     div.tr{
         width:auto;
@@ -788,15 +789,20 @@ transition: all 1s ease-in-out;
     div.navv {
         display: flex;
         justify-content: space-between;
-        width: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
     }
     nav{
         display: flex;
         flex-direction: row;
         font-size: 1.2rem;
         justify-content: space-between;
+        align-items: center;
         width: 350px;
+        gap: 0.5rem;
     }
+    
     div.maintxt{
         width: auto;
     }
@@ -874,6 +880,8 @@ transition: all 1s ease-in-out;
         flex-direction: column;
         height: 8rem;
         width:100%;
+        position: fixed;
+        padding: 1rem 0;
     }
     .master{
         margin-bottom: 0%;
@@ -888,6 +896,9 @@ transition: all 1s ease-in-out;
         margin-top: 0%;
         font-weight: 900;
     }
+    .top2 {
+    padding-top: 8rem; /* marge pour compenser la nav fixe */
+}
 
     .top2 h1 {
         font-size: 2.2rem;
@@ -913,6 +924,7 @@ transition: all 1s ease-in-out;
     .runinpt {
         width: 80%;
         font-size: 1rem;
+        padding: 0.8rem 1rem;
     }
 
     .img1, .img2, .img3 {
@@ -1017,5 +1029,36 @@ transition: all 1s ease-in-out;
     div.boxsay4{
         width:95%;
     }
-    
+    .boxes, .combo, .learn {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 2rem;
+}
+.box, .lst {
+    width: 100%;
+}
+.img1, .img2, .img3 {
+    height: 200px;
+}
+.say {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.say > div {
+    width: 100%;
+}
+.more {
+    text-align: center;
+    padding: 3rem 0;
+}
+.more input {
+    width: 80%;
+}
+footer, .fot {
+    flex-direction: column;
+    align-items: center;
+}
 }
